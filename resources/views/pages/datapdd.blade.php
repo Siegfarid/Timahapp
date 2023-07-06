@@ -1,11 +1,17 @@
 @extends('app')
 
-@section('title', 'Data Penduduk')
+@section('title', 'Data Penduduk') 
 
 @section('content')
 <div class="card">
   <div class="card-header">
-    <h4>Small Table, Caption &amp; Responsive</h4>
+    <h4>
+      <a href="penduduk/add" class="btn btn-primary">
+      <i class="fa fa-edit">
+        Tambah
+      </i>
+      </a>
+  </h4>
   </div>
   <div class="card-body">
     <div class="section-title">Responsive</div>

@@ -22,4 +22,8 @@ Route::get('/penduduk', function () {
     return view('pages/datapdd');
 });
 
-Route::get('/dump/{id}', [PendudukController::class, 'findWargaWithKeluarga']);
+Route::get('/penduduk/add', function () {
+    return view('pages/addpdd');
+});
+
+Route::get('/anggota/{id}', [PendudukController::class, 'findWargaWithKeluarga']);
